@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  height: 100vh;
+}
+
+a,
+button,
+li {
+  cursor: pointer;
+}
+
+.react-search-box-dropdown {
+  color: #fff;
+  background: transparent !important;
+  border: 1px solid #222124 !important;
+  border-radius: 15px !important;
+  background: #1d1b1f !important;
+  overflow: hidden;
+  max-height: 280px;
+}
+
+.react-search-box-dropdown-list-item {
+  background: #1d1b1f !important;
+  width: 100%;
+  border: none !important;
+}
+
+.react-search-box-dropdown-list-item:hover {
+  background: #252427 !important;
+}
